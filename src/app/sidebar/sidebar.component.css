@@ -1,0 +1,32 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.slot{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px 20px;
+}
+
+.slot > i{
+  color: #606060;
+  font-size: large !important;
+}
+
+p{
+  flex: 1;
+  margin-left: 20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.slot:hover{
+  background: lightgray;
+}
+
+.slot:hover > p{
+  font-weight: bold;
+}

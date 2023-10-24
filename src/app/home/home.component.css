@@ -1,0 +1,12 @@
+.home{
+  display: flex;
+  flex-direction: row;
+}
+
+.home > .sidebar{
+  flex: 0.2;
+}
+
+.home > .videos{
+  flex: 0.8;
+}

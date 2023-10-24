@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="left_section">
+    <i class="material-icons">menu</i>
+    <span class="logo" routerLink="/"><i class="material-icons">play_circle</i>Myvideostube</span>
+  </div>
+  <div class="middle_section">
+    <input type="text" [(ngModel)]="searchQuery" placeholder="Search">
+    <button (click)="searchVideos()"><i class="material-icons">search</i></button>
+  </div>
+  <div class="right_section">
+    <i class="material-icons">videocam</i>
+    <i class="material-icons">notifications</i>
+    <i class="material-icons">account_circle</i>
+  </div>
+</div>
